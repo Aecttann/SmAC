@@ -3,6 +3,7 @@ package com.example.smac;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.WindowManager;
  
 public class Splash extends Activity
 {
@@ -15,7 +16,7 @@ public class Splash extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
-        
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         Thread logoTimer = new Thread()
         {
             public void run()
