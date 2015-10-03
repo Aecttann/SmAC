@@ -20,6 +20,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:layout_weight="0.26"
+        android:alpha="0.5"
         android:text="@string/destination" />
 
     <EditText
@@ -30,8 +32,10 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/button1"
         android:ems="10"
-        android:hint="@string/destination_time" 
-        android:inputType="time" >
+        android:hint="@string/destination_time"
+        android:inputType="time"
+        android:selectAllOnFocus="false"
+        android:textAllCaps="false" >
 
         <requestFocus />
     </EditText>
@@ -43,9 +47,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editText1"
-        android:hint="@string/extra_time" 
         android:ems="10"
-        android:inputType="time" />
+        android:hint="@string/extra_time"
+        android:inputType="time"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button2"
@@ -63,7 +68,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/button2"
-        android:text="@string/vibro_on" />
+        android:textOff="@string/vibro_on"
+		android:textOn="@string/vibro_on" 
+         />
 
     <EditText
         android:id="@+id/editText3"
@@ -72,7 +79,18 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/toggleButton1"
-        android:text="@string/alarm_name"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="@string/alarm_name"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="78dp"
+        android:text="@string/next_accept_alarm_settings" />
 
 </RelativeLayout>

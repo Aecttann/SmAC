@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.WindowManager;
 import android.widget.Button;
 public class Main extends ActionBarActivity {
 	@Override
@@ -14,9 +15,11 @@ public class Main extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		getSupportActionBar().hide();
-		
+		this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 		Button btn_for_alarm_setup = (Button) findViewById(R.id.button1);
 		btn_for_alarm_setup.setTransformationMethod(null);
+		Button btn_for_final_accept = (Button) findViewById(R.id.buttonStart);
+		btn_for_final_accept.setTransformationMethod(null);
 		btn_for_alarm_setup.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -45,6 +48,7 @@ public class Main extends ActionBarActivity {
 				System.exit(0);
 			}
 		});
+		
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

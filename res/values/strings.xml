@@ -12,4 +12,7 @@
     <string name="ringtone">Мелодия</string>
     <string name="vibro_on">Вибрация</string>
 	<string name="alarm_name">Название</string>
+	<string name="next_accept_alarm_settings">Далее</string>
+	<string name="accept_alarm">Подтвердить</string>
+	<string name="information_in_da_alarm">Чё, как:) Вставай:3</string>
 </resources>
