@@ -1,4 +1,5 @@
 package com.example.smac;
+<<<<<<< HEAD
 import java.util.Calendar;
 
 import android.app.Activity;
@@ -13,6 +14,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 public class Accepting_Information extends Activity {
 	Toast my_toast;
+=======
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+public class Accepting_Information extends Activity {
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated constructor stub
 		super.onCreate(savedInstanceState);
@@ -22,6 +29,7 @@ public class Accepting_Information extends Activity {
 		TextView view_for_wake_up_time = (TextView) findViewById(R.id.textView2);
 		view_for_wake_up_time.setText(getIntent().getExtras().getString("Key for time"));
 		TextView view_for_extra_time = (TextView) findViewById(R.id.textView3);
+<<<<<<< HEAD
 		/**
 		 * Ну вот хз я, как сделать по-человечески(да и для слабаков это...),
 		 * поэтому будем юзать костыли:3
@@ -31,12 +39,16 @@ public class Accepting_Information extends Activity {
 		
 		final int time_int = Integer.parseInt(for_set_time_for_alarm);
 		
+=======
+		view_for_extra_time.setText(getIntent().getExtras().getString("Key for extra time"));
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 		//TextView view_for_ringtone = (TextView) findViewById(R.id.textView4);
 		//view_for_ringtone.setText(getIntent().getExtras().getString("Key for ringtone"));
 		TextView view_for_vibration_mode = (TextView) findViewById(R.id.textView5);
 		view_for_vibration_mode.setText(getIntent().getExtras().getString("Key for vibration_mode_selected"));
 		TextView view_for_alarm_name= (TextView) findViewById(R.id.textView6);
 		view_for_alarm_name.setText(getIntent().getExtras().getString("Key for alarm name"));
+<<<<<<< HEAD
 		String time = view_for_extra_time.getText().toString();
 		
 		/*
@@ -82,5 +94,7 @@ public class Accepting_Information extends Activity {
 	    Button btn_accept = (Button) findViewById(R.id.buttonStart);
 	    btn_accept.setOnClickListener(start_alarm_listener);
 	    
+=======
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 	}
 }

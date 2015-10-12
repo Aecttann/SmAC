@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+=======
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
         android:src="@drawable/bckg_for_setup" />
+<<<<<<< HEAD
 
     <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
+=======
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
@@ -28,8 +40,13 @@
                 android:text="@string/destination"
                 android:textColor="#F0F8FF"
                 android:textSize="21sp" />
+<<<<<<< HEAD
         </TableRow>
 
+=======
+
+        </TableRow>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="wrap_content"
@@ -42,8 +59,13 @@
                 android:text="@string/destination_time"
                 android:textColor="#F0F8FF"
                 android:textSize="21sp" />
+<<<<<<< HEAD
         </TableRow>
 
+=======
+
+        </TableRow>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
@@ -56,8 +78,13 @@
                 android:text="@string/extra_time"
                 android:textColor="#F0F8FF"
                 android:textSize="21sp" />
+<<<<<<< HEAD
         </TableRow>
 
+=======
+
+        </TableRow>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
         <TableRow
             android:id="@+id/tableRow4"
             android:layout_width="wrap_content"
@@ -70,8 +97,13 @@
                 android:text="@string/ringtone"
                 android:textColor="#F0F8FF"
                 android:textSize="21sp" />
+<<<<<<< HEAD
         </TableRow>
 
+=======
+
+        </TableRow>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
         <TableRow
             android:id="@+id/tableRow5"
             android:layout_width="wrap_content"
@@ -84,8 +116,13 @@
                 android:text="@string/vibro_on"
                 android:textColor="#F0F8FF"
                 android:textSize="21sp" />
+<<<<<<< HEAD
         </TableRow>
 
+=======
+
+        </TableRow>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
         <TableRow
             android:id="@+id/tableRow6"
             android:layout_width="wrap_content"
@@ -98,6 +135,7 @@
                 android:text="@string/alarm_name"
                 android:textColor="#F0F8FF"
                 android:textSize="21sp" />
+<<<<<<< HEAD
         </TableRow>
     </TableLayout>
 
@@ -111,4 +149,9 @@
         android:layout_marginBottom="22dp"
         android:text="@string/accept_alarm" />
 
+=======
+
+        </TableRow>
+    </TableLayout>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 </RelativeLayout>

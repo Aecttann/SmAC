@@ -43,6 +43,7 @@
         <activity
             android:name=".About" >
         </activity >
+<<<<<<< HEAD
 <!--
 <activity
             android:name=".Alarm"
@@ -70,6 +71,9 @@
             </intent-filter>
         </activity>
         
+=======
+        <service android:name=".VibrateService"/>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
     </application>
     
 </manifest>

@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # view AndroidManifest.xml #generated:64
 -keep class android.example. { <init>(...); }
 
+=======
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 # view res/layout/abc_alert_dialog_material.xml #generated:130
 -keep class android.support.v4.widget.Space { <init>(...); }
 
@@ -70,9 +73,12 @@
 # view AndroidManifest.xml #generated:40
 -keep class com.example.smac.Accepting_Information { <init>(...); }
 
+<<<<<<< HEAD
 # view AndroidManifest.xml #generated:60
 -keep class com.example.smac.Alarm { <init>(...); }
 
+=======
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 # view AndroidManifest.xml #generated:37
 -keep class com.example.smac.Alarm_setup { <init>(...); }
 
@@ -82,6 +88,10 @@
 # view AndroidManifest.xml #generated:20
 -keep class com.example.smac.Splash { <init>(...); }
 
+<<<<<<< HEAD
 # view AndroidManifest.xml #generated:58
+=======
+# view AndroidManifest.xml #generated:46
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 -keep class com.example.smac.VibrateService { <init>(...); }
 

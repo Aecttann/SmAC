@@ -13,6 +13,9 @@
     <string name="vibro_on">Вибрация</string>
 	<string name="alarm_name">Название</string>
 	<string name="next_accept_alarm_settings">Далее</string>
+<<<<<<< HEAD
 	<string name="accept_alarm">Подтвердить</string>
 	<string name="information_in_da_alarm">Чё, как:) Вставай:3</string>
+=======
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
 </resources>
