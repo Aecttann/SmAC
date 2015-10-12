@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bckg_for_setup" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.26"
+        android:alpha="0.5"
+        android:text="@string/destination" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:ems="10"
+        android:hint="@string/destination_day"
+        android:inputType="time"
+        android:selectAllOnFocus="false"
+        android:textAllCaps="false"
+        android:textColor="#F0F8FF"
+        android:textColorHint="#F0F8FF" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:ems="10"
+        android:hint="@string/extra_time"
+        android:inputType="time"
+        android:textAllCaps="false"
+        android:textColor="#F0F8FF"
+        android:textColorHint="#F0F8FF"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText2"
+        android:text="@string/ringtone" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button2"
+        android:textOff="@string/vibro_on"
+		android:textOn="@string/vibro_on" 
+         />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toggleButton1"
+        android:ems="10"
+        android:hint="@string/alarm_name"
+        android:textAllCaps="false"
+        android:textColor="#F0F8FF"
+        android:textColorHint="#F0F8FF"
+         />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/next_accept_alarm_settings" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/destination_minute"
+        android:inputType="time"
+        android:textColor="#F0F8FF"
+        android:textColorHint="#F0F8FF"
+         />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/destination_hour"
+        android:inputType="time"
+        android:textColor="#F0F8FF"
+        android:textColorHint="#F0F8FF"
+         />
+
+</RelativeLayout>
