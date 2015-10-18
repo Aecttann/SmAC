@@ -1,4 +1,5 @@
 package com.example.smac;
+<<<<<<< HEAD
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
@@ -125,3 +126,25 @@ public class Destination_map extends Activity {
     }
 
 }
+=======
+/*
+import com.google.android.maps.MapActivity;
+import com.google.android.maps.MapView;
+
+import android.os.Bundle;
+
+public class Destination_map extends MapActivity {
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.destination);
+		MapView map_for_destination_select = (MapView) findViewById(R.id.map1);
+		map_for_destination_select.setBuiltInZoomControls(true);
+}
+
+	@Override
+	protected boolean isRouteDisplayed() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}*/
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb

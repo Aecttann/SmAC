@@ -6255,6 +6255,7 @@ android.support.v7.widget.Toolbar$SavedState$1 -> android.support.v7.widget.bl:
 com.example.smac.About -> com.example.smac.About:
     void onCreate(android.os.Bundle) -> onCreate
 com.example.smac.Accepting_Information -> com.example.smac.Accepting_Information:
+<<<<<<< HEAD
     android.widget.Toast mToast -> a
     void onCreate(android.os.Bundle) -> onCreate
 com.example.smac.Accepting_Information$1 -> com.example.smac.a:
@@ -6265,11 +6266,15 @@ com.example.smac.Accepting_Information$1 -> com.example.smac.a:
     void onClick(android.view.View) -> onClick
 com.example.smac.Alarm -> com.example.smac.Alarm:
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
+=======
+    void onCreate(android.os.Bundle) -> onCreate
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.Alarm_setup -> com.example.smac.Alarm_setup:
     java.lang.String string_for_putting_extra_data_about_vibration_into_Accept -> a
     java.lang.String SDCARD_DIRECTORY -> b
     java.lang.String REPORTS_DIRECTORY -> c
     void onCreate(android.os.Bundle) -> onCreate
+<<<<<<< HEAD
 com.example.smac.Alarm_setup$1 -> com.example.smac.b:
     com.example.smac.Alarm_setup this$0 -> a
     void onClick(android.view.View) -> onClick
@@ -6300,12 +6305,28 @@ com.example.smac.Destination_map -> com.example.smac.Destination_map:
 com.example.smac.Destination_map$1 -> com.example.smac.f:
     com.example.smac.Destination_map this$0 -> a
     void onMapClick(com.google.android.gms.maps.model.LatLng) -> a
+=======
+com.example.smac.Alarm_setup$1 -> com.example.smac.a:
+    com.example.smac.Alarm_setup this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.smac.Alarm_setup$2 -> com.example.smac.b:
+    boolean variable_for_saving_toggle_button_status -> a
+    com.example.smac.Alarm_setup this$0 -> b
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.example.smac.Alarm_setup$3 -> com.example.smac.c:
+    com.example.smac.Alarm_setup this$0 -> a
+    android.widget.EditText val$edit_for_time_when_user_needs_to_be_in_place -> b
+    android.widget.EditText val$edit_for_extra_waking_time -> c
+    android.widget.EditText val$edit_for_alarm_name -> d
+    void onClick(android.view.View) -> onClick
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.Main -> com.example.smac.Main:
     void onCreate(android.os.Bundle) -> onCreate
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
     boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
     android.view.View onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet) -> onCreateView
     android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet) -> onCreateView
+<<<<<<< HEAD
 com.example.smac.Main$1 -> com.example.smac.g:
     com.example.smac.Main this$0 -> a
     void onClick(android.view.View) -> onClick
@@ -6313,10 +6334,20 @@ com.example.smac.Main$2 -> com.example.smac.h:
     com.example.smac.Main this$0 -> a
     void onClick(android.view.View) -> onClick
 com.example.smac.Main$3 -> com.example.smac.i:
+=======
+com.example.smac.Main$1 -> com.example.smac.d:
+    com.example.smac.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.smac.Main$2 -> com.example.smac.e:
+    com.example.smac.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.smac.Main$3 -> com.example.smac.f:
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
     com.example.smac.Main this$0 -> a
     void onClick(android.view.View) -> onClick
 com.example.smac.Splash -> com.example.smac.Splash:
     void onCreate(android.os.Bundle) -> onCreate
+<<<<<<< HEAD
 com.example.smac.Splash$1 -> com.example.smac.j:
     com.example.smac.Splash this$0 -> a
     void run() -> run
@@ -8749,3 +8780,8 @@ com.google.android.gms.maps.zzb -> com.google.android.gms.maps.r:
     void zza(com.google.android.gms.maps.StreetViewPanoramaOptions,android.os.Parcel,int) -> a
     java.lang.Object[] newArray(int) -> newArray
     java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+=======
+com.example.smac.Splash$1 -> com.example.smac.g:
+    com.example.smac.Splash this$0 -> a
+    void run() -> run
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb

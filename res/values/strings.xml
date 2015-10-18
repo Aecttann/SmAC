@@ -7,17 +7,29 @@
     <string name="about">О программе</string>
     <string name="exit">Выход</string>
     <string name="destination">Пункт назначения</string>
+<<<<<<< HEAD
     <string name="destination_day">День</string>
     <string name="destination_hour">Час</string>
     <string name="destination_minute">Мин</string>
+=======
+    <string name="destination_time">Время прибытия</string>
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
     <string name="extra_time">Разбудить до выхода за</string>
     <string name="ringtone">Мелодия</string>
     <string name="vibro_on">Вибрация</string>
 	<string name="alarm_name">Название</string>
 	<string name="next_accept_alarm_settings">Далее</string>
+<<<<<<< HEAD
 	<string name="one_shot_alarm">САНЯ РАБОТАЕТ!</string>
 	 <string name="one_shot_scheduled">Будильник успешно установлен!</string>
         <string name="one_shot_received">The one-shot Alarm Notification !!!</string>
         <string name="activity_alarm_controller">App/Alarm/Alarm Controller</string>
         <string name="test">Test</string> 
+=======
+<<<<<<< HEAD
+	<string name="accept_alarm">Подтвердить</string>
+	<string name="information_in_da_alarm">Чё, как:) Вставай:3</string>
+=======
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 </resources>

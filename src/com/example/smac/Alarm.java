@@ -1,10 +1,15 @@
 package com.example.smac;
 
+<<<<<<< HEAD
 
 import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Vibrator;
+=======
+import android.content.Context;
+import android.content.Intent;
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 import android.content.BroadcastReceiver;
 import android.widget.Toast;
 
@@ -17,6 +22,7 @@ import android.widget.Toast;
  * <p>
  * When the alarm goes off, we show a <i>Toast</i>, a quick message.
  */
+<<<<<<< HEAD
 public class Alarm extends BroadcastReceiver
 {
 	
@@ -33,3 +39,14 @@ public class Alarm extends BroadcastReceiver
 		*/
     }
 }
+=======
+
+public class Alarm extends BroadcastReceiver
+{
+    @Override
+    public void onReceive(Context context, Intent intent)
+    {
+        Toast.makeText(context, R.string.information_in_da_alarm, Toast.LENGTH_SHORT).show();
+    }
+}
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb

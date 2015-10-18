@@ -5,8 +5,13 @@
     tools:context="com.example.smac.Main" >
     <ImageView
         android:id="@+id/imageView1"
+<<<<<<< HEAD
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:scaleType="fitXY"

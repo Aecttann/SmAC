@@ -1636,12 +1636,17 @@ com.example.smac.About
 com.example.smac.About: About()
 com.example.smac.Accepting_Information
 com.example.smac.Accepting_Information: Accepting_Information()
+<<<<<<< HEAD
 com.example.smac.Alarm
 com.example.smac.Alarm: Alarm()
 com.example.smac.Alarm_setup
 com.example.smac.Alarm_setup: Alarm_setup()
 com.example.smac.Destination_map
 com.example.smac.Destination_map: Destination_map()
+=======
+com.example.smac.Alarm_setup
+com.example.smac.Alarm_setup: Alarm_setup()
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.Main
 com.example.smac.Main: Main()
 com.example.smac.R$anim: int abc_fade_in
@@ -1688,15 +1693,21 @@ com.example.smac.R$attr: int actionOverflowMenuStyle
 com.example.smac.R$attr: int actionProviderClass
 com.example.smac.R$attr: int actionViewClass
 com.example.smac.R$attr: int activityChooserViewStyle
+<<<<<<< HEAD
 com.example.smac.R$attr: int adSize
 com.example.smac.R$attr: int adSizes
 com.example.smac.R$attr: int adUnitId
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$attr: int alertDialogButtonGroupStyle
 com.example.smac.R$attr: int alertDialogCenterButtons
 com.example.smac.R$attr: int alertDialogStyle
 com.example.smac.R$attr: int alertDialogTheme
+<<<<<<< HEAD
 com.example.smac.R$attr: int ambientEnabled
 com.example.smac.R$attr: int appTheme
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$attr: int arrowHeadLength
 com.example.smac.R$attr: int arrowShaftLength
 com.example.smac.R$attr: int autoCompleteTextViewStyle
@@ -1717,6 +1728,7 @@ com.example.smac.R$attr: int buttonStyle
 com.example.smac.R$attr: int buttonStyleSmall
 com.example.smac.R$attr: int buttonTint
 com.example.smac.R$attr: int buttonTintMode
+<<<<<<< HEAD
 com.example.smac.R$attr: int buyButtonAppearance
 com.example.smac.R$attr: int buyButtonHeight
 com.example.smac.R$attr: int buyButtonText
@@ -1729,6 +1741,10 @@ com.example.smac.R$attr: int cameraZoom
 com.example.smac.R$attr: int checkboxStyle
 com.example.smac.R$attr: int checkedTextViewStyle
 com.example.smac.R$attr: int circleCrop
+=======
+com.example.smac.R$attr: int checkboxStyle
+com.example.smac.R$attr: int checkedTextViewStyle
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$attr: int closeIcon
 com.example.smac.R$attr: int closeItemLayout
 com.example.smac.R$attr: int collapseContentDescription
@@ -1765,10 +1781,14 @@ com.example.smac.R$attr: int editTextBackground
 com.example.smac.R$attr: int editTextColor
 com.example.smac.R$attr: int editTextStyle
 com.example.smac.R$attr: int elevation
+<<<<<<< HEAD
 com.example.smac.R$attr: int environment
 com.example.smac.R$attr: int expandActivityOverflowButtonDrawable
 com.example.smac.R$attr: int fragmentMode
 com.example.smac.R$attr: int fragmentStyle
+=======
+com.example.smac.R$attr: int expandActivityOverflowButtonDrawable
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$attr: int gapBetweenBars
 com.example.smac.R$attr: int goIcon
 com.example.smac.R$attr: int height
@@ -1777,8 +1797,11 @@ com.example.smac.R$attr: int homeAsUpIndicator
 com.example.smac.R$attr: int homeLayout
 com.example.smac.R$attr: int icon
 com.example.smac.R$attr: int iconifiedByDefault
+<<<<<<< HEAD
 com.example.smac.R$attr: int imageAspectRatio
 com.example.smac.R$attr: int imageAspectRatioAdjust
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$attr: int indeterminateProgressStyle
 com.example.smac.R$attr: int initialActivityCount
 com.example.smac.R$attr: int isLightTheme
@@ -1794,6 +1817,7 @@ com.example.smac.R$attr: int listPreferredItemHeightLarge
 com.example.smac.R$attr: int listPreferredItemHeightSmall
 com.example.smac.R$attr: int listPreferredItemPaddingLeft
 com.example.smac.R$attr: int listPreferredItemPaddingRight
+<<<<<<< HEAD
 com.example.smac.R$attr: int liteMode
 com.example.smac.R$attr: int logo
 com.example.smac.R$attr: int logoDescription
@@ -1805,6 +1829,10 @@ com.example.smac.R$attr: int maskedWalletDetailsHeaderTextAppearance
 com.example.smac.R$attr: int maskedWalletDetailsLogoImageType
 com.example.smac.R$attr: int maskedWalletDetailsLogoTextColor
 com.example.smac.R$attr: int maskedWalletDetailsTextAppearance
+=======
+com.example.smac.R$attr: int logo
+com.example.smac.R$attr: int logoDescription
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$attr: int maxButtonHeight
 com.example.smac.R$attr: int measureWithLargestChild
 com.example.smac.R$attr: int multiChoiceItemLayout
@@ -1875,6 +1903,7 @@ com.example.smac.R$attr: int titleTextStyle
 com.example.smac.R$attr: int toolbarNavigationButtonStyle
 com.example.smac.R$attr: int toolbarStyle
 com.example.smac.R$attr: int track
+<<<<<<< HEAD
 com.example.smac.R$attr: int uiCompass
 com.example.smac.R$attr: int uiMapToolbar
 com.example.smac.R$attr: int uiRotateGestures
@@ -1883,6 +1912,8 @@ com.example.smac.R$attr: int uiTiltGestures
 com.example.smac.R$attr: int uiZoomControls
 com.example.smac.R$attr: int uiZoomGestures
 com.example.smac.R$attr: int useViewLifecycle
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$attr: int voiceIcon
 com.example.smac.R$attr: int windowActionBar
 com.example.smac.R$attr: int windowActionBarOverlay
@@ -1894,8 +1925,11 @@ com.example.smac.R$attr: int windowFixedWidthMinor
 com.example.smac.R$attr: int windowMinWidthMajor
 com.example.smac.R$attr: int windowMinWidthMinor
 com.example.smac.R$attr: int windowNoTitle
+<<<<<<< HEAD
 com.example.smac.R$attr: int windowTransitionStyle
 com.example.smac.R$attr: int zOrderOnTop
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$bool: int abc_action_bar_embed_tabs
 com.example.smac.R$bool: int abc_action_bar_embed_tabs_pre_jb
 com.example.smac.R$bool: int abc_action_bar_expanded_action_views_exclusive
@@ -1931,6 +1965,7 @@ com.example.smac.R$color: int bright_foreground_material_dark
 com.example.smac.R$color: int bright_foreground_material_light
 com.example.smac.R$color: int button_material_dark
 com.example.smac.R$color: int button_material_light
+<<<<<<< HEAD
 com.example.smac.R$color: int common_action_bar_splitter
 com.example.smac.R$color: int common_signin_btn_dark_text_default
 com.example.smac.R$color: int common_signin_btn_dark_text_disabled
@@ -1943,6 +1978,8 @@ com.example.smac.R$color: int common_signin_btn_light_text_focused
 com.example.smac.R$color: int common_signin_btn_light_text_pressed
 com.example.smac.R$color: int common_signin_btn_text_dark
 com.example.smac.R$color: int common_signin_btn_text_light
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$color: int dim_foreground_disabled_material_dark
 com.example.smac.R$color: int dim_foreground_disabled_material_light
 com.example.smac.R$color: int dim_foreground_material_dark
@@ -1985,6 +2022,7 @@ com.example.smac.R$color: int switch_thumb_material_dark
 com.example.smac.R$color: int switch_thumb_material_light
 com.example.smac.R$color: int switch_thumb_normal_material_dark
 com.example.smac.R$color: int switch_thumb_normal_material_light
+<<<<<<< HEAD
 com.example.smac.R$color: int wallet_bright_foreground_disabled_holo_light
 com.example.smac.R$color: int wallet_bright_foreground_holo_dark
 com.example.smac.R$color: int wallet_bright_foreground_holo_light
@@ -2000,6 +2038,8 @@ com.example.smac.R$color: int wallet_holo_blue_light
 com.example.smac.R$color: int wallet_link_text_light
 com.example.smac.R$color: int wallet_primary_text_holo_light
 com.example.smac.R$color: int wallet_secondary_text_holo_dark
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$dimen: int abc_action_bar_content_inset_material
 com.example.smac.R$dimen: int abc_action_bar_default_height_material
 com.example.smac.R$dimen: int abc_action_bar_default_padding_end_material
@@ -2137,6 +2177,7 @@ com.example.smac.R$drawable: int abc_textfield_search_activated_mtrl_alpha
 com.example.smac.R$drawable: int abc_textfield_search_default_mtrl_alpha
 com.example.smac.R$drawable: int abc_textfield_search_material
 com.example.smac.R$drawable: int bckg_for_setup
+<<<<<<< HEAD
 com.example.smac.R$drawable: int cast_ic_notification_0
 com.example.smac.R$drawable: int cast_ic_notification_1
 com.example.smac.R$drawable: int cast_ic_notification_2
@@ -2178,6 +2219,12 @@ com.example.smac.R$drawable: int main_screen_bckg_final
 com.example.smac.R$drawable: int notification_template_icon_bg
 com.example.smac.R$drawable: int powered_by_google_dark
 com.example.smac.R$drawable: int powered_by_google_light
+=======
+com.example.smac.R$drawable: int ic_launcher
+com.example.smac.R$drawable: int main_screen_bckg
+com.example.smac.R$drawable: int main_screen_bckg_final
+com.example.smac.R$drawable: int notification_template_icon_bg
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$drawable: int splash
 com.example.smac.R$id: int action0
 com.example.smac.R$id: int action_bar
@@ -2196,16 +2243,23 @@ com.example.smac.R$id: int action_mode_bar_stub
 com.example.smac.R$id: int action_mode_close_button
 com.example.smac.R$id: int action_settings
 com.example.smac.R$id: int activity_chooser_view_content
+<<<<<<< HEAD
 com.example.smac.R$id: int adjust_height
 com.example.smac.R$id: int adjust_width
 com.example.smac.R$id: int alertTitle
 com.example.smac.R$id: int always
 com.example.smac.R$id: int beginning
 com.example.smac.R$id: int book_now
+=======
+com.example.smac.R$id: int alertTitle
+com.example.smac.R$id: int always
+com.example.smac.R$id: int beginning
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int button1
 com.example.smac.R$id: int button2
 com.example.smac.R$id: int button3
 com.example.smac.R$id: int buttonPanel
+<<<<<<< HEAD
 com.example.smac.R$id: int button_Start
 com.example.smac.R$id: int buyButton
 com.example.smac.R$id: int buy_now
@@ -2216,6 +2270,11 @@ com.example.smac.R$id: int cast_notification_id
 com.example.smac.R$id: int checkbox
 com.example.smac.R$id: int chronometer
 com.example.smac.R$id: int classic
+=======
+com.example.smac.R$id: int cancel_action
+com.example.smac.R$id: int checkbox
+com.example.smac.R$id: int chronometer
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int collapseActionView
 com.example.smac.R$id: int contentPanel
 com.example.smac.R$id: int custom
@@ -2223,6 +2282,7 @@ com.example.smac.R$id: int customPanel
 com.example.smac.R$id: int decor_content_parent
 com.example.smac.R$id: int default_activity_button
 com.example.smac.R$id: int disableHome
+<<<<<<< HEAD
 com.example.smac.R$id: int donate_with
 com.example.smac.R$id: int donate_with_google
 com.example.smac.R$id: int editText1
@@ -2230,11 +2290,17 @@ com.example.smac.R$id: int editText2
 com.example.smac.R$id: int editText3
 com.example.smac.R$id: int editText4
 com.example.smac.R$id: int editText5
+=======
+com.example.smac.R$id: int editText1
+com.example.smac.R$id: int editText2
+com.example.smac.R$id: int editText3
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int edit_query
 com.example.smac.R$id: int end
 com.example.smac.R$id: int end_padder
 com.example.smac.R$id: int expand_activities_button
 com.example.smac.R$id: int expanded_menu
+<<<<<<< HEAD
 com.example.smac.R$id: int google_wallet_classic
 com.example.smac.R$id: int google_wallet_grayscale
 com.example.smac.R$id: int google_wallet_monochrome
@@ -2244,6 +2310,10 @@ com.example.smac.R$id: int holo_light
 com.example.smac.R$id: int home
 com.example.smac.R$id: int homeAsUp
 com.example.smac.R$id: int hybrid
+=======
+com.example.smac.R$id: int home
+com.example.smac.R$id: int homeAsUp
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int icon
 com.example.smac.R$id: int ifRoom
 com.example.smac.R$id: int image
@@ -2253,23 +2323,34 @@ com.example.smac.R$id: int line1
 com.example.smac.R$id: int line3
 com.example.smac.R$id: int listMode
 com.example.smac.R$id: int list_item
+<<<<<<< HEAD
 com.example.smac.R$id: int logo_only
 com.example.smac.R$id: int mapP
 com.example.smac.R$id: int match_parent
 com.example.smac.R$id: int media_actions
 com.example.smac.R$id: int middle
 com.example.smac.R$id: int monochrome
+=======
+com.example.smac.R$id: int media_actions
+com.example.smac.R$id: int middle
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int multiply
 com.example.smac.R$id: int never
 com.example.smac.R$id: int none
 com.example.smac.R$id: int normal
 com.example.smac.R$id: int parentPanel
+<<<<<<< HEAD
 com.example.smac.R$id: int production
 com.example.smac.R$id: int progress_circular
 com.example.smac.R$id: int progress_horizontal
 com.example.smac.R$id: int radio
 com.example.smac.R$id: int sandbox
 com.example.smac.R$id: int satellite
+=======
+com.example.smac.R$id: int progress_circular
+com.example.smac.R$id: int progress_horizontal
+com.example.smac.R$id: int radio
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int screen
 com.example.smac.R$id: int scrollView
 com.example.smac.R$id: int search_badge
@@ -2283,33 +2364,47 @@ com.example.smac.R$id: int search_plate
 com.example.smac.R$id: int search_src_text
 com.example.smac.R$id: int search_voice_btn
 com.example.smac.R$id: int select_dialog_listview
+<<<<<<< HEAD
 com.example.smac.R$id: int selectionDetails
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int shortcut
 com.example.smac.R$id: int showCustom
 com.example.smac.R$id: int showHome
 com.example.smac.R$id: int showTitle
+<<<<<<< HEAD
 com.example.smac.R$id: int slide
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int splashscreen
 com.example.smac.R$id: int split_action_bar
 com.example.smac.R$id: int src_atop
 com.example.smac.R$id: int src_in
 com.example.smac.R$id: int src_over
 com.example.smac.R$id: int status_bar_latest_event_content
+<<<<<<< HEAD
 com.example.smac.R$id: int streetView
 com.example.smac.R$id: int strict_sandbox
 com.example.smac.R$id: int submit_area
 com.example.smac.R$id: int tabMode
 com.example.smac.R$id: int tableLayout1
+=======
+com.example.smac.R$id: int submit_area
+com.example.smac.R$id: int tabMode
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int tableRow1
 com.example.smac.R$id: int tableRow2
 com.example.smac.R$id: int tableRow3
 com.example.smac.R$id: int tableRow4
 com.example.smac.R$id: int tableRow5
 com.example.smac.R$id: int tableRow6
+<<<<<<< HEAD
 com.example.smac.R$id: int tableRow7
 com.example.smac.R$id: int tableRow8
 com.example.smac.R$id: int terrain
 com.example.smac.R$id: int test
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int text
 com.example.smac.R$id: int text2
 com.example.smac.R$id: int textSpacerNoButtons
@@ -2319,8 +2414,11 @@ com.example.smac.R$id: int textView3
 com.example.smac.R$id: int textView4
 com.example.smac.R$id: int textView5
 com.example.smac.R$id: int textView6
+<<<<<<< HEAD
 com.example.smac.R$id: int textView7
 com.example.smac.R$id: int textView8
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$id: int time
 com.example.smac.R$id: int title
 com.example.smac.R$id: int titleManager
@@ -2335,7 +2433,10 @@ com.example.smac.R$integer: int abc_config_activityDefaultDur
 com.example.smac.R$integer: int abc_config_activityShortDur
 com.example.smac.R$integer: int abc_max_action_buttons
 com.example.smac.R$integer: int cancel_button_image_alpha
+<<<<<<< HEAD
 com.example.smac.R$integer: int google_play_services_version
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$integer: int status_bar_notification_info_maxnum
 com.example.smac.R$layout: int abc_action_bar_title_item
 com.example.smac.R$layout: int abc_action_bar_up_container
@@ -2365,7 +2466,10 @@ com.example.smac.R$layout: int about
 com.example.smac.R$layout: int accepting_alarm
 com.example.smac.R$layout: int file_manager
 com.example.smac.R$layout: int main
+<<<<<<< HEAD
 com.example.smac.R$layout: int map
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$layout: int notification_media_action
 com.example.smac.R$layout: int notification_media_cancel_action
 com.example.smac.R$layout: int notification_template_big_media
@@ -2382,8 +2486,11 @@ com.example.smac.R$layout: int setup_alarm
 com.example.smac.R$layout: int splash
 com.example.smac.R$layout: int support_simple_spinner_dropdown_item
 com.example.smac.R$menu: int main
+<<<<<<< HEAD
 com.example.smac.R$raw: int data_don_t_sing
 com.example.smac.R$raw: int gtm_analytics
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$string: int abc_action_bar_home_description
 com.example.smac.R$string: int abc_action_bar_home_description_format
 com.example.smac.R$string: int abc_action_bar_home_subtitle_description_format
@@ -2402,6 +2509,7 @@ com.example.smac.R$string: int abc_shareactionprovider_share_with
 com.example.smac.R$string: int abc_shareactionprovider_share_with_application
 com.example.smac.R$string: int abc_toolbar_collapse_description
 com.example.smac.R$string: int about
+<<<<<<< HEAD
 com.example.smac.R$string: int accept
 com.example.smac.R$string: int action_settings
 com.example.smac.R$string: int activity_alarm_controller
@@ -2451,10 +2559,18 @@ com.example.smac.R$string: int destination
 com.example.smac.R$string: int destination_day
 com.example.smac.R$string: int destination_hour
 com.example.smac.R$string: int destination_minute
+=======
+com.example.smac.R$string: int action_settings
+com.example.smac.R$string: int alarm_name
+com.example.smac.R$string: int app_name
+com.example.smac.R$string: int destination
+com.example.smac.R$string: int destination_time
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$string: int exit
 com.example.smac.R$string: int extra_time
 com.example.smac.R$string: int hello_world
 com.example.smac.R$string: int next_accept_alarm_settings
+<<<<<<< HEAD
 com.example.smac.R$string: int one_shot_alarm
 com.example.smac.R$string: int one_shot_received
 com.example.smac.R$string: int one_shot_scheduled
@@ -2466,6 +2582,12 @@ com.example.smac.R$string: int store_picture_title
 com.example.smac.R$string: int test
 com.example.smac.R$string: int vibro_on
 com.example.smac.R$string: int wallet_buy_button_place_holder
+=======
+com.example.smac.R$string: int ringtone
+com.example.smac.R$string: int setup_alarm
+com.example.smac.R$string: int status_bar_notification_info_overflow
+com.example.smac.R$string: int vibro_on
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$style: int AlertDialog_AppCompat
 com.example.smac.R$style: int AlertDialog_AppCompat_Light
 com.example.smac.R$style: int Animation_AppCompat_Dialog
@@ -2700,16 +2822,22 @@ com.example.smac.R$style: int Theme_AppCompat_Light_Dialog_MinWidth
 com.example.smac.R$style: int Theme_AppCompat_Light_DialogWhenLarge
 com.example.smac.R$style: int Theme_AppCompat_Light_NoActionBar
 com.example.smac.R$style: int Theme_AppCompat_NoActionBar
+<<<<<<< HEAD
 com.example.smac.R$style: int Theme_IAPTheme
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$style: int ThemeOverlay_AppCompat
 com.example.smac.R$style: int ThemeOverlay_AppCompat_ActionBar
 com.example.smac.R$style: int ThemeOverlay_AppCompat_Dark
 com.example.smac.R$style: int ThemeOverlay_AppCompat_Dark_ActionBar
 com.example.smac.R$style: int ThemeOverlay_AppCompat_Light
+<<<<<<< HEAD
 com.example.smac.R$style: int WalletFragmentDefaultButtonTextAppearance
 com.example.smac.R$style: int WalletFragmentDefaultDetailsHeaderTextAppearance
 com.example.smac.R$style: int WalletFragmentDefaultDetailsTextAppearance
 com.example.smac.R$style: int WalletFragmentDefaultStyle
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$style: int Widget_AppCompat_ActionBar
 com.example.smac.R$style: int Widget_AppCompat_ActionBar_Solid
 com.example.smac.R$style: int Widget_AppCompat_ActionBar_TabBar
@@ -2819,10 +2947,13 @@ com.example.smac.R$styleable: int ActionMode_titleTextStyle
 com.example.smac.R$styleable: int[] ActivityChooserView
 com.example.smac.R$styleable: int ActivityChooserView_expandActivityOverflowButtonDrawable
 com.example.smac.R$styleable: int ActivityChooserView_initialActivityCount
+<<<<<<< HEAD
 com.example.smac.R$styleable: int[] AdsAttrs
 com.example.smac.R$styleable: int AdsAttrs_adSize
 com.example.smac.R$styleable: int AdsAttrs_adSizes
 com.example.smac.R$styleable: int AdsAttrs_adUnitId
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$styleable: int[] AlertDialog
 com.example.smac.R$styleable: int AlertDialog_android_layout
 com.example.smac.R$styleable: int AlertDialog_buttonPanelSideLayout
@@ -2837,8 +2968,11 @@ com.example.smac.R$styleable: int[] CompoundButton
 com.example.smac.R$styleable: int CompoundButton_android_button
 com.example.smac.R$styleable: int CompoundButton_buttonTint
 com.example.smac.R$styleable: int CompoundButton_buttonTintMode
+<<<<<<< HEAD
 com.example.smac.R$styleable: int[] CustomWalletTheme
 com.example.smac.R$styleable: int CustomWalletTheme_windowTransitionStyle
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$styleable: int[] DrawerArrowToggle
 com.example.smac.R$styleable: int DrawerArrowToggle_arrowHeadLength
 com.example.smac.R$styleable: int DrawerArrowToggle_arrowShaftLength
@@ -2866,6 +3000,7 @@ com.example.smac.R$styleable: int LinearLayoutCompat_Layout_android_layout_width
 com.example.smac.R$styleable: int[] ListPopupWindow
 com.example.smac.R$styleable: int ListPopupWindow_android_dropDownHorizontalOffset
 com.example.smac.R$styleable: int ListPopupWindow_android_dropDownVerticalOffset
+<<<<<<< HEAD
 com.example.smac.R$styleable: int[] LoadingImageView
 com.example.smac.R$styleable: int LoadingImageView_circleCrop
 com.example.smac.R$styleable: int LoadingImageView_imageAspectRatio
@@ -2888,6 +3023,8 @@ com.example.smac.R$styleable: int MapAttrs_uiZoomControls
 com.example.smac.R$styleable: int MapAttrs_uiZoomGestures
 com.example.smac.R$styleable: int MapAttrs_useViewLifecycle
 com.example.smac.R$styleable: int MapAttrs_zOrderOnTop
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R$styleable: int[] MenuGroup
 com.example.smac.R$styleable: int MenuGroup_android_checkableBehavior
 com.example.smac.R$styleable: int MenuGroup_android_enabled
@@ -3116,6 +3253,7 @@ com.example.smac.R$styleable: int[] ViewStubCompat
 com.example.smac.R$styleable: int ViewStubCompat_android_id
 com.example.smac.R$styleable: int ViewStubCompat_android_inflatedId
 com.example.smac.R$styleable: int ViewStubCompat_android_layout
+<<<<<<< HEAD
 com.example.smac.R$styleable: int[] WalletFragmentOptions
 com.example.smac.R$styleable: int WalletFragmentOptions_appTheme
 com.example.smac.R$styleable: int WalletFragmentOptions_environment
@@ -3814,3 +3952,7 @@ com.google.android.gms.wearable.internal.RemoveListenerRequest: android.os.Parce
 com.google.android.gms.wearable.internal.RemoveLocalCapabilityResponse: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.wearable.internal.SendMessageResponse: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.wearable.internal.StorageInfoResponse: android.os.Parcelable$Creator CREATOR
+=======
+com.example.smac.Splash
+com.example.smac.Splash: Splash()
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb

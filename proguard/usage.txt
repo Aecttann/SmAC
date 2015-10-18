@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 android.UnusedStub
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 android.support.annotation.AnimRes
 android.support.annotation.AnimatorRes
 android.support.annotation.AnyRes
@@ -3235,8 +3238,11 @@ android.support.v7.widget.Toolbar$LayoutParams:
     1878:1880:public Toolbar$LayoutParams(int,int,int)
     1883:1884:public Toolbar$LayoutParams(int)
 com.example.smac.BuildConfig
+<<<<<<< HEAD
 com.example.smac.Destination_map:
     97:104:private void addMarker()
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 com.example.smac.R
 com.example.smac.R$anim
 com.example.smac.R$attr
@@ -3248,6 +3254,7 @@ com.example.smac.R$id
 com.example.smac.R$integer
 com.example.smac.R$layout
 com.example.smac.R$menu
+<<<<<<< HEAD
 com.example.smac.R$raw
 com.example.smac.R$string
 com.example.smac.R$style
@@ -8540,3 +8547,8 @@ com.google.android.gms.wearable.zzh
 com.google.android.gms.wearable.zzi
 com.google.android.gms.wearable.zzj
 com.google.android.gms.wearable.zzk
+=======
+com.example.smac.R$string
+com.example.smac.R$style
+com.example.smac.R$styleable
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb

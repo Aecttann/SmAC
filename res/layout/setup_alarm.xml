@@ -26,6 +26,7 @@
 
     <EditText
         android:id="@+id/editText1"
+<<<<<<< HEAD
         android:layout_width="80sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
@@ -36,6 +37,18 @@
         android:textAllCaps="false"
         android:textColor="#F0F8FF"
         android:textColorHint="#F0F8FF" >
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:ems="10"
+        android:hint="@string/destination_time"
+        android:inputType="time"
+        android:selectAllOnFocus="false"
+        android:textAllCaps="false" >
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 
         <requestFocus />
     </EditText>
@@ -50,10 +63,14 @@
         android:ems="10"
         android:hint="@string/extra_time"
         android:inputType="time"
+<<<<<<< HEAD
         android:textAllCaps="false"
         android:textColor="#F0F8FF"
         android:textColorHint="#F0F8FF"
          />
+=======
+        android:textAllCaps="false" />
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 
     <Button
         android:id="@+id/button2"
@@ -84,10 +101,14 @@
         android:layout_below="@+id/toggleButton1"
         android:ems="10"
         android:hint="@string/alarm_name"
+<<<<<<< HEAD
         android:textAllCaps="false"
         android:textColor="#F0F8FF"
         android:textColorHint="#F0F8FF"
          />
+=======
+        android:textAllCaps="false" />
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 
     <Button
         android:id="@+id/button3"
@@ -96,6 +117,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+<<<<<<< HEAD
         android:text="@string/next_accept_alarm_settings" />
 
     <EditText
@@ -124,4 +146,9 @@
         android:textColorHint="#F0F8FF"
          />
 
+=======
+        android:layout_marginBottom="78dp"
+        android:text="@string/next_accept_alarm_settings" />
+
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 </RelativeLayout>

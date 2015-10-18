@@ -18,5 +18,8 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+<<<<<<< HEAD
 -dontwarn com.google.android.gms.*
 -ignorewarnings 
+=======
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb

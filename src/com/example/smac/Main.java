@@ -18,6 +18,11 @@ public class Main extends ActionBarActivity {
 		this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 		Button btn_for_alarm_setup = (Button) findViewById(R.id.button1);
 		btn_for_alarm_setup.setTransformationMethod(null);
+<<<<<<< HEAD
+=======
+		Button btn_for_final_accept = (Button) findViewById(R.id.buttonStart);
+		btn_for_final_accept.setTransformationMethod(null);
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 		btn_for_alarm_setup.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -44,9 +49,15 @@ public class Main extends ActionBarActivity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				System.exit(0);
+<<<<<<< HEAD
 				
 			}
 		});
+=======
+			}
+		});
+		
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

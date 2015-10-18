@@ -7,6 +7,7 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="23" />
     <uses-permission android:name="android.permission.INTERNET"/>
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -20,12 +21,20 @@
  		android:required="true">
 	</uses-feature>
 	
+=======
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
     
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppBaseTheme" >
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
 
         <activity
             
@@ -53,6 +62,7 @@
         <activity
             android:name=".About" >
         </activity >
+<<<<<<< HEAD
         <service android:name=".VibrateService"/>
         
         <receiver
@@ -61,11 +71,36 @@
         <activity
             android:name="android.example.alarm.AlarmController"
             android:label="@string/activity_alarm_controller">
+=======
+<<<<<<< HEAD
+<!--
+<activity
+            android:name=".Alarm"
+			android:label="@string/app_name" >
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+  -->
+                
+        <service android:name=".VibrateService"/>
+        
+                <receiver
+            android:name=".Alarm"
+            android:process=":remote" />
+
+        <activity
+            android:name="android.example."
+            android:label="@string/app_name">
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+<<<<<<< HEAD
                 <activity
             android:name=".Destination_map" >
         </activity >
@@ -77,6 +112,12 @@
 </meta-data>
 
 
+=======
+        
+=======
+        <service android:name=".VibrateService"/>
+>>>>>>> f3c41813c303795fc1996170f731f021d29aa99e
+>>>>>>> 0e8f92ca2c4cd9284611d02859692fd1a5b203cb
     </application>
     
 </manifest>
