@@ -1,4 +1,4 @@
-# view AndroidManifest.xml #generated:68
+# view AndroidManifest.xml #generated:61
 -keep class android.example.alarm.AlarmController { <init>(...); }
 
 # view res/layout/abc_alert_dialog_material.xml #generated:130
@@ -64,30 +64,33 @@
 # view res/layout/abc_screen_toolbar.xml #generated:36
 -keep class android.support.v7.widget.Toolbar { <init>(...); }
 
-# view AndroidManifest.xml #generated:60
+# view AndroidManifest.xml #generated:53
 -keep class com.example.smac.About { <init>(...); }
 
-# view AndroidManifest.xml #generated:57
+# view AndroidManifest.xml #generated:50
 -keep class com.example.smac.Accepting_Information { <init>(...); }
 
-# view AndroidManifest.xml #generated:65
+# view AndroidManifest.xml #generated:58
 -keep class com.example.smac.Alarm { <init>(...); }
 
-# view AndroidManifest.xml #generated:54
+# view AndroidManifest.xml #generated:47
 -keep class com.example.smac.Alarm_setup { <init>(...); }
 
-# view AndroidManifest.xml #generated:46
+# view AndroidManifest.xml #generated:69
+-keep class com.example.smac.Destination_map { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
 -keep class com.example.smac.Main { <init>(...); }
 
-# view AndroidManifest.xml #generated:37
+# view AndroidManifest.xml #generated:30
 -keep class com.example.smac.Splash { <init>(...); }
 
-# view AndroidManifest.xml #generated:63
+# view AndroidManifest.xml #generated:56
 -keep class com.example.smac.VibrateService { <init>(...); }
 
-# view res/layout/map.xml #generated:15
--keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+# view res/layout/map.xml #generated:8
+-keep class com.google.android.gms.maps.MapFragment { <init>(...); }
 
-# onClick res/layout/map.xml #generated:8
--keepclassmembers class * { *** onClickTest(...); }
+# view res/layout/map.xml #generated:13
+-keep class com.google.android.gms.maps.StreetViewPanoramaFragment { <init>(...); }
 

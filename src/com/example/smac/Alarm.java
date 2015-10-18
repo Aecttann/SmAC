@@ -4,10 +4,7 @@ package com.example.smac;
 import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
-import android.os.Bundle;
 import android.os.Vibrator;
-import android.webkit.WebView.FindListener;
-import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.widget.Toast;
 
@@ -20,17 +17,19 @@ import android.widget.Toast;
  * <p>
  * When the alarm goes off, we show a <i>Toast</i>, a quick message.
  */
-public class Alarm extends Activity
+public class Alarm extends BroadcastReceiver
 {
 	
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-        Toast.makeText(Alarm.this, R.string.one_shot_received, Toast.LENGTH_LONG).show();
-        MediaPlayer mp_for_alarm_dont_sing = MediaPlayer.create(Alarm.this, R.raw.data_don_t_sing);
+    public void onReceive(Context context, Intent intent)
+    {
+        Toast.makeText(context, R.string.one_shot_received, Toast.LENGTH_LONG).show();
+        MediaPlayer mp_for_alarm_dont_sing = MediaPlayer.create(context,R.raw.data_don_t_sing);
         mp_for_alarm_dont_sing.start();
         mp_for_alarm_dont_sing.setLooping(true);
-		Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-		v.vibrate(2000);
+        /*
+		Vibrator v = (Vibrator) getSystemService(context, Context.VIBRATOR_SERVICE);
+		v.vibrate(10000);
+		*/
     }
 }

@@ -1,7 +1,6 @@
 android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
 android.support.v4.app.BaseFragmentActivityDonut: BaseFragmentActivityDonut()
 android.support.v4.app.BaseFragmentActivityHoneycomb: BaseFragmentActivityHoneycomb()
-android.support.v4.app.Fragment: Fragment()
 android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
 android.support.v4.app.FragmentActivity: FragmentActivity()
 android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
@@ -1641,7 +1640,8 @@ com.example.smac.Alarm
 com.example.smac.Alarm: Alarm()
 com.example.smac.Alarm_setup
 com.example.smac.Alarm_setup: Alarm_setup()
-com.example.smac.Destination_map: void onClickTest(android.view.View)
+com.example.smac.Destination_map
+com.example.smac.Destination_map: Destination_map()
 com.example.smac.Main
 com.example.smac.Main: Main()
 com.example.smac.R$anim: int abc_fade_in
@@ -2202,7 +2202,6 @@ com.example.smac.R$id: int alertTitle
 com.example.smac.R$id: int always
 com.example.smac.R$id: int beginning
 com.example.smac.R$id: int book_now
-com.example.smac.R$id: int btnTest
 com.example.smac.R$id: int button1
 com.example.smac.R$id: int button2
 com.example.smac.R$id: int button3
@@ -2255,7 +2254,7 @@ com.example.smac.R$id: int line3
 com.example.smac.R$id: int listMode
 com.example.smac.R$id: int list_item
 com.example.smac.R$id: int logo_only
-com.example.smac.R$id: int map
+com.example.smac.R$id: int mapP
 com.example.smac.R$id: int match_parent
 com.example.smac.R$id: int media_actions
 com.example.smac.R$id: int middle
@@ -2296,6 +2295,7 @@ com.example.smac.R$id: int src_atop
 com.example.smac.R$id: int src_in
 com.example.smac.R$id: int src_over
 com.example.smac.R$id: int status_bar_latest_event_content
+com.example.smac.R$id: int streetView
 com.example.smac.R$id: int strict_sandbox
 com.example.smac.R$id: int submit_area
 com.example.smac.R$id: int tabMode
@@ -3696,10 +3696,12 @@ com.google.android.gms.location.places.PlaceRequest: android.os.Parcelable$Creat
 com.google.android.gms.location.places.internal.AutocompletePredictionEntity: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.location.places.internal.AutocompletePredictionEntity$SubstringEntity: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.location.places.internal.PlaceLikelihoodEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.maps.MapFragment
+com.google.android.gms.maps.MapFragment: MapFragment()
 com.google.android.gms.maps.MapView: com.google.android.gms.maps.GoogleMap getMap()
+com.google.android.gms.maps.StreetViewPanoramaFragment
+com.google.android.gms.maps.StreetViewPanoramaFragment: StreetViewPanoramaFragment()
 com.google.android.gms.maps.StreetViewPanoramaView: com.google.android.gms.maps.StreetViewPanorama getStreetViewPanorama()
-com.google.android.gms.maps.SupportMapFragment
-com.google.android.gms.maps.SupportMapFragment: SupportMapFragment()
 com.google.android.gms.nearby.bootstrap.Device: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.nearby.connection.AppIdentifier: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.nearby.connection.AppMetadata: android.os.Parcelable$Creator CREATOR

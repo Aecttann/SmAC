@@ -178,6 +178,7 @@ android.support.v4.app.Fragment:
     532:532:public final int getId()
     539:539:public final java.lang.String getTag()
     550:554:public void setArguments(android.os.Bundle)
+    561:561:public final android.os.Bundle getArguments()
     573:578:public void setInitialSavedState(android.support.v4.app.Fragment$SavedState)
     592:594:public void setTargetFragment(android.support.v4.app.Fragment,int)
     600:600:public final android.support.v4.app.Fragment getTargetFragment()
@@ -234,6 +235,7 @@ android.support.v4.app.FragmentActivity:
     214:215:public void supportPostponeEnterTransition()
     222:223:public void supportStartPostponedEnterTransition()
     552:554:public java.lang.Object getLastCustomNonConfigurationInstance()
+    732:732:public android.support.v4.app.FragmentManager getSupportFragmentManager()
     736:736:public android.support.v4.app.LoaderManager getSupportLoaderManager()
     760:765:public final void validateRequestPermissionsRequestCode(int)
     812:820:public void startActivityFromFragment(android.support.v4.app.Fragment,android.content.Intent,int)
@@ -262,6 +264,7 @@ android.support.v4.app.FragmentManager:
     public abstract android.support.v4.app.FragmentTransaction beginTransaction()
     152:152:public android.support.v4.app.FragmentTransaction openTransaction()
     public abstract boolean executePendingTransactions()
+    public abstract android.support.v4.app.Fragment findFragmentById(int)
     public abstract android.support.v4.app.Fragment findFragmentByTag(java.lang.String)
     public abstract void popBackStack()
     public abstract void popBackStack(java.lang.String,int)
@@ -3232,6 +3235,8 @@ android.support.v7.widget.Toolbar$LayoutParams:
     1878:1880:public Toolbar$LayoutParams(int,int,int)
     1883:1884:public Toolbar$LayoutParams(int)
 com.example.smac.BuildConfig
+com.example.smac.Destination_map:
+    97:104:private void addMarker()
 com.example.smac.R
 com.example.smac.R$anim
 com.example.smac.R$attr
@@ -7137,6 +7142,7 @@ com.google.android.gms.maps.GoogleMap:
     public com.google.android.gms.maps.model.IndoorBuilding getFocusedBuilding()
     public final void setOnIndoorStateChangeListener(com.google.android.gms.maps.GoogleMap$OnIndoorStateChangeListener)
     public final int getMapType()
+    public final void setMapType(int)
     public final boolean isTrafficEnabled()
     public final void setTrafficEnabled(boolean)
     public final boolean isIndoorEnabled()
@@ -7150,7 +7156,6 @@ com.google.android.gms.maps.GoogleMap:
     public final com.google.android.gms.maps.UiSettings getUiSettings()
     public final com.google.android.gms.maps.Projection getProjection()
     public final void setOnCameraChangeListener(com.google.android.gms.maps.GoogleMap$OnCameraChangeListener)
-    public final void setOnMapClickListener(com.google.android.gms.maps.GoogleMap$OnMapClickListener)
     public final void setOnMapLongClickListener(com.google.android.gms.maps.GoogleMap$OnMapLongClickListener)
     public final void setOnMarkerClickListener(com.google.android.gms.maps.GoogleMap$OnMarkerClickListener)
     public final void setOnMarkerDragListener(com.google.android.gms.maps.GoogleMap$OnMarkerDragListener)
@@ -7175,14 +7180,12 @@ com.google.android.gms.maps.GoogleMap$5
 com.google.android.gms.maps.GoogleMap$6
 com.google.android.gms.maps.GoogleMap$6$1
 com.google.android.gms.maps.GoogleMap$7
-com.google.android.gms.maps.GoogleMap$8
 com.google.android.gms.maps.GoogleMap$9
 com.google.android.gms.maps.GoogleMap$CancelableCallback
 com.google.android.gms.maps.GoogleMap$InfoWindowAdapter
 com.google.android.gms.maps.GoogleMap$OnCameraChangeListener
 com.google.android.gms.maps.GoogleMap$OnIndoorStateChangeListener
 com.google.android.gms.maps.GoogleMap$OnInfoWindowClickListener
-com.google.android.gms.maps.GoogleMap$OnMapClickListener
 com.google.android.gms.maps.GoogleMap$OnMapLoadedCallback
 com.google.android.gms.maps.GoogleMap$OnMapLongClickListener
 com.google.android.gms.maps.GoogleMap$OnMarkerClickListener
@@ -7205,19 +7208,48 @@ com.google.android.gms.maps.GoogleMapOptions:
     public java.lang.Boolean getAmbientEnabled()
 com.google.android.gms.maps.LocationSource
 com.google.android.gms.maps.LocationSource$OnLocationChangedListener
-com.google.android.gms.maps.MapFragment
-com.google.android.gms.maps.MapFragment$zza
-com.google.android.gms.maps.MapFragment$zza$1
-com.google.android.gms.maps.MapFragment$zzb
+com.google.android.gms.maps.MapFragment:
+    public static com.google.android.gms.maps.MapFragment newInstance()
+    public static com.google.android.gms.maps.MapFragment newInstance(com.google.android.gms.maps.GoogleMapOptions)
+    public final void onEnterAmbient(android.os.Bundle)
+    public final void onExitAmbient()
+    public void getMapAsync(com.google.android.gms.maps.OnMapReadyCallback)
+com.google.android.gms.maps.MapFragment$zza:
+    public void onStart()
+    public void onStop()
+    public void onEnterAmbient(android.os.Bundle)
+    public void onExitAmbient()
+com.google.android.gms.maps.MapFragment$zzb:
+    public void getMapAsync(com.google.android.gms.maps.OnMapReadyCallback)
+    public void onEnterAmbient(android.os.Bundle)
+    public void onExitAmbient()
 com.google.android.gms.maps.MapView
 com.google.android.gms.maps.MapView$zza
 com.google.android.gms.maps.MapView$zza$1
 com.google.android.gms.maps.MapView$zzb
 com.google.android.gms.maps.MapsInitializer:
     private MapsInitializer()
-com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback
 com.google.android.gms.maps.Projection
-com.google.android.gms.maps.StreetViewPanorama
+com.google.android.gms.maps.StreetViewPanorama:
+    public boolean isZoomGesturesEnabled()
+    public void setZoomGesturesEnabled(boolean)
+    public boolean isPanningGesturesEnabled()
+    public void setPanningGesturesEnabled(boolean)
+    public boolean isUserNavigationEnabled()
+    public void setUserNavigationEnabled(boolean)
+    public boolean isStreetNamesEnabled()
+    public void setStreetNamesEnabled(boolean)
+    public void animateTo(com.google.android.gms.maps.model.StreetViewPanoramaCamera,long)
+    public com.google.android.gms.maps.model.StreetViewPanoramaCamera getPanoramaCamera()
+    public void setPosition(java.lang.String)
+    public void setPosition(com.google.android.gms.maps.model.LatLng,int)
+    public com.google.android.gms.maps.model.StreetViewPanoramaLocation getLocation()
+    public com.google.android.gms.maps.model.StreetViewPanoramaOrientation pointToOrientation(android.graphics.Point)
+    public android.graphics.Point orientationToPoint(com.google.android.gms.maps.model.StreetViewPanoramaOrientation)
+    public final void setOnStreetViewPanoramaChangeListener(com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaChangeListener)
+    public final void setOnStreetViewPanoramaCameraChangeListener(com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaCameraChangeListener)
+    public final void setOnStreetViewPanoramaClickListener(com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaClickListener)
+    public final void setOnStreetViewPanoramaLongClickListener(com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaLongClickListener)
 com.google.android.gms.maps.StreetViewPanorama$1
 com.google.android.gms.maps.StreetViewPanorama$2
 com.google.android.gms.maps.StreetViewPanorama$3
@@ -7226,10 +7258,15 @@ com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaCameraChangeL
 com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaChangeListener
 com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaClickListener
 com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaLongClickListener
-com.google.android.gms.maps.StreetViewPanoramaFragment
-com.google.android.gms.maps.StreetViewPanoramaFragment$zza
-com.google.android.gms.maps.StreetViewPanoramaFragment$zza$1
-com.google.android.gms.maps.StreetViewPanoramaFragment$zzb
+com.google.android.gms.maps.StreetViewPanoramaFragment:
+    public static com.google.android.gms.maps.StreetViewPanoramaFragment newInstance()
+    public static com.google.android.gms.maps.StreetViewPanoramaFragment newInstance(com.google.android.gms.maps.StreetViewPanoramaOptions)
+    public void getStreetViewPanoramaAsync(com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback)
+com.google.android.gms.maps.StreetViewPanoramaFragment$zza:
+    public void onStart()
+    public void onStop()
+com.google.android.gms.maps.StreetViewPanoramaFragment$zzb:
+    public void getStreetViewPanoramaAsync(com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback)
 com.google.android.gms.maps.StreetViewPanoramaOptions:
     public com.google.android.gms.maps.StreetViewPanoramaOptions panoramaCamera(com.google.android.gms.maps.model.StreetViewPanoramaCamera)
     public com.google.android.gms.maps.StreetViewPanoramaOptions panoramaId(java.lang.String)
@@ -7249,22 +7286,10 @@ com.google.android.gms.maps.StreetViewPanoramaView
 com.google.android.gms.maps.StreetViewPanoramaView$zza
 com.google.android.gms.maps.StreetViewPanoramaView$zza$1
 com.google.android.gms.maps.StreetViewPanoramaView$zzb
-com.google.android.gms.maps.SupportMapFragment:
-    public static com.google.android.gms.maps.SupportMapFragment newInstance()
-    public static com.google.android.gms.maps.SupportMapFragment newInstance(com.google.android.gms.maps.GoogleMapOptions)
-    public final void onEnterAmbient(android.os.Bundle)
-    public final void onExitAmbient()
-    public void getMapAsync(com.google.android.gms.maps.OnMapReadyCallback)
-    public void setArguments(android.os.Bundle)
-com.google.android.gms.maps.SupportMapFragment$zza:
-    public void onStart()
-    public void onStop()
-    public void onEnterAmbient(android.os.Bundle)
-    public void onExitAmbient()
-com.google.android.gms.maps.SupportMapFragment$zzb:
-    public void getMapAsync(com.google.android.gms.maps.OnMapReadyCallback)
-    public void onEnterAmbient(android.os.Bundle)
-    public void onExitAmbient()
+com.google.android.gms.maps.SupportMapFragment
+com.google.android.gms.maps.SupportMapFragment$zza
+com.google.android.gms.maps.SupportMapFragment$zza$1
+com.google.android.gms.maps.SupportMapFragment$zzb
 com.google.android.gms.maps.SupportStreetViewPanoramaFragment
 com.google.android.gms.maps.SupportStreetViewPanoramaFragment$zza
 com.google.android.gms.maps.SupportStreetViewPanoramaFragment$zza$1
@@ -7274,7 +7299,8 @@ com.google.android.gms.maps.internal.ILocationSourceDelegate$zza:
     public ILocationSourceDelegate$zza()
 com.google.android.gms.maps.internal.MapLifecycleDelegate:
     public abstract void getMapAsync(com.google.android.gms.maps.OnMapReadyCallback)
-com.google.android.gms.maps.internal.StreetViewLifecycleDelegate
+com.google.android.gms.maps.internal.StreetViewLifecycleDelegate:
+    public abstract void getStreetViewPanoramaAsync(com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback)
 com.google.android.gms.maps.internal.zzb$zza:
     public zzb$zza()
 com.google.android.gms.maps.internal.zzd$zza:
@@ -7285,8 +7311,6 @@ com.google.android.gms.maps.internal.zzf$zza:
     public zzf$zza()
 com.google.android.gms.maps.internal.zzg$zza:
     public zzg$zza()
-com.google.android.gms.maps.internal.zzi$zza:
-    public zzi$zza()
 com.google.android.gms.maps.internal.zzj$zza:
     public zzj$zza()
 com.google.android.gms.maps.internal.zzk$zza:
@@ -7309,8 +7333,6 @@ com.google.android.gms.maps.internal.zzt$zza:
     public zzt$zza()
 com.google.android.gms.maps.internal.zzu$zza:
     public zzu$zza()
-com.google.android.gms.maps.internal.zzv$zza:
-    public zzv$zza()
 com.google.android.gms.maps.internal.zzw$zza:
     public zzw$zza()
 com.google.android.gms.maps.model.BitmapDescriptorFactory:
